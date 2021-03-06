@@ -1,0 +1,84 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+button {
+  font-family: verdana, arial, sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: orangered;
+  border-radius: 10px;
+}
+
+#button2 {
+  background: greenyellow;
+  border-radius: 10px;
+}
+
+#button3 {
+  background: deepskyblue;
+  border-radius: 10px;
+}
+
+#button4 {
+  background: gold;
+  border-radius: 10px;
+}
+
+#button5 {
+  background: magenta;
+  border-radius: 10px;
+}
+
+#button6 {
+  background: black;
+  border-radius: 10px;
+}
+
+#button1:active,
+#button1.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
+
+#button2:active,
+#button2.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
+
+#button3:active,
+#button3.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
+
+#button4:active,
+#button4.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
+
+#button5:active,
+#button5.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
+
+#button6:active,
+#button6.lit {
+  background-image: url("https://cdn.glitch.com/b59156bf-718f-4bde-9ea1-981d2bbe73eb%2Fmusicnote.PNG?v=1615014592861");
+}
